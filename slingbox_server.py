@@ -929,7 +929,7 @@ Please select the one you want to use and update the config.ini accordingly.
                                     SendKeycode(str(key[0]), rccode )
 
                     if curtime - lasttick > 10.0:
-                        print('.', end='')
+#                        print('.', end='')
                         stati[section_name] = name + ' Slingbox Streaming %d clients. Resolution=%d Packets=%d' % (len(streams), resolution, pc)
                         lasttick = curtime
                         sys.stdout.flush()                  
